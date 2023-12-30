@@ -1,14 +1,25 @@
 .button {
-height: 51px;
   padding: 16px 18px;
   border-radius: 10px;
-  background: #4a026b;
-  color: white;
-  outline: none;
+  background-color: #4a026b;
   border: none;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 500;
+  box-shadow: 2px 1px 15px #3b055ee3;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
-.button:hover,:active {
-background-color: #510674;
-    border-color: #510674;
+
+.button:hover {
+  background-color: #861ecbbc;
+}
+
+.button:active {
+  background: #600a87;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-end;
 }
