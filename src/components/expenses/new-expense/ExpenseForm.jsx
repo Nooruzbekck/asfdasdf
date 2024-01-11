@@ -1,11 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useState } from "react";
 import "./ExpenseForm.css";
-import Button from "../UI/button/Button";
-import { Input } from "../UI/input/Input";
+import Button from "../../UI/button/Button";
+import { Input } from "../../UI/input/Input";
 
 export const ExpenseForm = ({ handleClick, onAddExpense }) => {
-  const [title, setTitle] = useState("");
+  const [title, setTitle] = useState(" ");
   const [amount, setAmount] = useState("");
   const [date, setDate] = useState("");
 
